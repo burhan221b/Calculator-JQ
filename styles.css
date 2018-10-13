@@ -1,0 +1,52 @@
+/*
+*, body, window{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+*/
+body{
+    background-color: bisque
+}
+
+input{
+    margin: 2px;
+}
+
+input.btn{
+    border: 1px solid black;
+    width: 30px;
+    border-radius: 2px;
+    padding: 2px;
+    cursor: pointer;
+}
+input.btn:hover{
+    background-color: orange;
+}
+
+
+div#regCal{
+    display: block;
+    position: relative;
+    width: 200px;
+    background-color: green;
+    text-align: center;
+    padding: 10px, 0;
+}
+
+form{
+/*    position: absolute;*/
+    margin: 0px, auto;
+    padding:10px,0;
+    
+}
+p#display{
+    position: relative;
+    text-align: center;
+    background: white;
+    color: green;
+}
+input#results{
+    text-align: right;
+    margin: 0, auto;
+}
